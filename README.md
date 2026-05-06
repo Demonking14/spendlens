@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SpendLens
 
-## Getting Started
+SpendLens is a free AI spend audit tool for startups. Teams enter the AI tools they pay for and receive an instant audit that highlights overspend, cheaper alternatives, and potential savings, while creating qualified leads for Credex discounted AI credits.
 
-First, run the development server:
+## Screenshots
+
+Screenshots coming Day 4.
+
+## Quick Start
+
+```bash
+npm install
+```
+
+Create `.env.local` with the placeholder keys from `.env.local`, then run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Decisions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Positioning
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+TODO
 
-## Learn More
+### Audit Scoring
 
-To learn more about Next.js, take a look at the following resources:
+TODO
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Lead Capture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TODO
 
-## Deploy on Vercel
+### Pricing Data Maintenance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TODO
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Conversion Flow
+
+TODO
