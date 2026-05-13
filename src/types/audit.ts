@@ -1,4 +1,3 @@
-// Core audit types define the public contract between the form, API, engine, and results page.
 export type ToolName =
   | "cursor"
   | "github_copilot"

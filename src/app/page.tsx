@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-// Home renders the first simple landing page for SpendLens.
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center px-4 py-16">

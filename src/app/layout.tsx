@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -18,7 +19,6 @@ export const metadata: Metadata = {
   description: "AI spend audit setup for startups.",
 };
 
-// RootLayout will hold global providers and app-wide metadata as the product grows.
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,7 +29,23 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <a
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-foreground focus:shadow"
+          href="#main-content"
+        >
+          Skip to main content
+        </a>
+        <header className="border-b border-border bg-white">
+          <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+            <Link className="text-base font-semibold text-foreground" href="/">
+              SpendLens
+            </Link>
+            <Link className="text-sm font-medium text-foreground hover:text-indigo-600" href="/audit">
+              Free audit &rarr;
+            </Link>
+          </nav>
+        </header>
+        <div id="main-content">{children}</div>
       </body>
     </html>
   );

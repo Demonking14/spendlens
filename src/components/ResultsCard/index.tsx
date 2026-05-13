@@ -1,4 +1,3 @@
-// ResultsCard will display individual savings recommendations.
-export function ResultsCard() {
+export const ResultsCard = () => {
   return null;
-}
+};

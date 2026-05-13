@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest"
+    "test": "vitest run"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",

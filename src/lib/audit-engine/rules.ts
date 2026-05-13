@@ -1,4 +1,3 @@
-// Tool pricing configuration powers plan selectors and future audit rules.
 export type PlanConfig = {
   name: string;
   monthlyPricePerSeat: number;
