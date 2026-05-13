@@ -9,8 +9,6 @@ Free AI tools audit for startup CTOs and engineering managers. Find overspend, w
 ## Primary CTA
 Audit my stack
 
-## Social proof block
-[MOCKED DATA]
 
 **Nadia Kim, CTO, seed-stage SaaS startup**  
 "We had 8 people on ChatGPT Team but only 3 used it daily. SpendLens flagged it in under a minute. Cancelled 5 seats, saving $150 a month."
